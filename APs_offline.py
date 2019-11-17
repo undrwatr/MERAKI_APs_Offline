@@ -4,16 +4,10 @@
 #Program to audit the store network and look for APs that are offline
 
 #imports
-import requests
-import json
-import os
-import subprocess
-import sys
-import time
 import re
+import requests
 
 #Import the CRED module from a separate directory ****Only Usable when I run this script locally
-sys.path.insert(0,'../CRED')
 import cred
 
 #This pulls the information based on s/ns that start with these.
